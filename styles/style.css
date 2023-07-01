@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.main-block {
+    width: 100%;
+    height: 725px;
+    background: url(../картинки/Background.jpg)
+}
+
+.header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 180px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    gap: 20px;
+    color: aliceblue;
+}
+
+.text {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.header2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 206px;
+    gap: 20px;
+    color: aliceblue;
+
+}
+
+.knopka {
+    padding-right: 22px;
+    padding-left: 22px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    color: #1E2E3D;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.CTW {
+    font-family: "Montserrat";
+    font-size: 79px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.wb {
+    font-family: "Montserrat";
+    font-size: 27px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.zr {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.obomne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 72px;
+    gap: 15px;
+    font-size: 37px;
+}
+
+.cherta {
+    background-color: rgb(3, 3, 3);
+    width: 110px;
+    height: 3px;
+}
+
+.textblog2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 119px;
+    gap: 97px;
+}
+
+.krasiviitext {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 973px;
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.colorblock {
+    background-color: #1E2E3D;
+    width: 100%;
+}
+
+.navikicolor {
+    color: aliceblue;
+}
+
+.white-cherta {
+    background-color: white;
+}
+
+.trimalblock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 142px;
+    padding-top: 116px;
+    padding-bottom: 250px;
+}
+
+.tekst {
+    font-family: "Montserrat";
+    font-size: 37px;
+    color: azure;
+}
+
+.pramoitext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.chetvertiyblog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 124px;
+}
+
+.otstup1 {
+    margin-bottom: 50px;
+}
+
+.otstup2 {
+    margin-bottom: 15px;
+    text-align: center
+}
+
+.otstup3 {
+    margin-bottom: 27px;
+    text-align: center
+}
+
+.opstup4 {
+    padding-top: 81px;
+}
+
+.opstup5 {
+    display: flex;
+    gap: 20px;
+}
+
+.tekst12 {
+    font-family: "Montserrat";
+    font-size: 35px
+}
+
+.tekst13 {
+    font-family: "Montserrat";
+    font-size: 20px
+}
+
+@media screen and (max-width: 900px) {
+    .trimalblock {
+        justify-content: space-between;
+        gap: 0px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .textblog2 {
+        flex-wrap: wrap;
+        gap: 97px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .trimalblock {
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    .krasiviitext {
+        margin: 0 5%;
+    }
+}
+
+
+
+@media screen and (max-width: 420px) {
+    .header {
+
+        justify-content: center;
+        padding-right: 0px;
+
+    }
+
+    .otstup2 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .otstup3 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
